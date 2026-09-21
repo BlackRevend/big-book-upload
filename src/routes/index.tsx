@@ -86,7 +86,8 @@ function Index() {
           height={1200}
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-[var(--gradient-hero)]" />
+        <div className="absolute inset-0 bg-ink/60" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-ink/50" />
         <div className="relative mx-auto max-w-3xl px-6 py-32 text-center text-cream">
           <p className="text-[0.7rem] uppercase tracking-brand text-cream/80">
             Flower Experience · Costa Rica
