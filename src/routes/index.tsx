@@ -86,19 +86,18 @@ function Index() {
           height={1200}
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-ink/60" />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-ink/50" />
+        <div className="absolute inset-0 bg-ink/65" />
         <div className="relative mx-auto max-w-3xl px-6 py-32 text-center text-cream">
           <p className="text-[0.7rem] uppercase tracking-brand text-cream/80">
             Flower Experience · Costa Rica
           </p>
-          <h1 className="mt-6 font-display text-5xl leading-[1.05] md:text-7xl">
+          <h1 className="mt-6 font-display text-5xl leading-[1.05] drop-shadow-[0_2px_14px_rgba(0,0,0,0.5)] md:text-7xl">
             Flores que dicen
-            <span className="mt-2 block font-script text-6xl text-sand md:text-7xl">
+            <span className="mt-2 block font-script text-6xl text-sand drop-shadow-[0_2px_12px_rgba(0,0,0,0.55)] md:text-7xl">
               lo que no se dice
             </span>
           </h1>
-          <p className="mx-auto mt-7 max-w-xl text-base leading-relaxed text-cream/85 italic">
+          <p className="mx-auto mt-7 max-w-xl text-base leading-relaxed text-cream/90 italic drop-shadow-[0_1px_8px_rgba(0,0,0,0.6)]">
             Diseño floral de autor para celebrar, agradecer, pedir perdón y acompañar. Cada flor,
             color y detalle se elige con una intención.
           </p>
